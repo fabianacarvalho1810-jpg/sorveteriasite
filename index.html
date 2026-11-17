@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soevetes Artesanais Fabiana - Faça seu Pedido</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Sorveteria Artesanais Fabiana</h1>
+        <p>O melhor sorvete artesanal da região na sua casa!</p>
+    </header>
+
+    <main>
+        <section class="banner">
+            <img src="sorveteartesenal.jpg"
+            alt="Sorvete artesal focado na pureza  dos ingredientes , sem conservantes, ingredientes frescos e naural e gorduras hidrogenadas">
+        </section>
+
+        <section class="form-container">
+            <h2>Monte o seu Pedido</h2>
+            
+            <form action="#" method="POST">
+                
+                <!-- Campos de digitação com validação nativa -->
+                <div class="campo">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="seu-email@exemplo.com">
+                </div>
+
+                <div class="campo">
+                    <label for="telefone">Telefone / WhatsApp:</label>
+                    <input type="tel" id="telefone" name="telefone" required placeholder="(41) 99999-4444">
+                </div>
+
+                <!-- Grupo de escolha única (Radio) -->
+                <fieldset>
+                    <legend>Forma de Entrega</legend>
+                    
+                    <label class="radio-label">
+                        <input type="radio" name="entrega" value="delivery" checked> Delivery (Entrega em domicílio)
+                    </label>
+                    
+                    <label class="radio-label">
+                        <input type="radio" name="entrega" value="retirada"> Retirar no Balcão
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Sabores</legend>
+                    <label class="checkbox-label">
+                        
+                     <div> 
+                    <input type="checkbox" name="sabores" value="morango"> Morango
+                    </label>
+                    <div>
+                    </div>  
+                    <input type="checkbox" name="sabores" value="Flocos"> Flocos
+                    </label>
+                    <div>
+                    </div>  
+                    <input type="checkbox" name="sabores" value="Paçoca"> Paçoca
+                    </label>
+                    <div>
+                    </div>  
+                    <input type="checkbox" name="sabores" value="Pistache"> Pistache
+                    </label>
+                    </div>  
+                    <input type="checkbox" name="sabores" value="Pistache"> sabores tradicional
+                    
+                    </label>
+                    </div>  
+
+
+
+                <!-- Grupo de escolha múltipla (Checkbox) -->
+                <fieldset>
+                    <legend>Adicionais</legend>
+                    
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="adicional" value="castanhas e nozes"> Pistache triturado, amendoas e castanha de caju
+                    </label>
+                    
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="adicional" value="Farofas e biscoitos"> Farofa de biscoito negresco, oreo ou bolacha com pedaços  de casquinha crocante
+                    </label>
+                    
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="adicional" value="Frutas"> Calda de frutas vermelha e geleia  de morango extra
+                    </label>
+                     <label class="checkbox-label">
+                        <input type="checkbox" name="adicional" value="Frutas"> Calda de chocolate com chantilly
+                    </label>
+
+
+
+                    
+                </fieldset>
+
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sorveteria Artesanal Fabiana. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

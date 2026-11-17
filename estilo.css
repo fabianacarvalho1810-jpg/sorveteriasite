@@ -1,0 +1,126 @@
+/* Configurações Gerais e Cores de Alto Contraste */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: #f4f4f9;
+    color: #ef0e0e;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b30000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 1.1rem;
+}
+
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Estilização da Imagem */
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #fa0909;
+    margin-bottom: 25px;
+}
+
+/* Estilização do Cartão do Formulário */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #fc0909f3;
+    box-shadow: 0 4px 8px rgb(235, 2, 2);
+}
+
+.form-container h2 {
+    color: #ee0404;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #fb0707;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Fieldsets */
+fieldset {
+    border: 2px solid #b30000;
+    border-radius: 14px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background-color: #fff9f9;
+}
+
+legend {
+    font-weight: bold;
+    color: #b30000;
+    padding: 0 8px;
+}
+
+.radio-label,
+.checkbox-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+/* Botão de Envio */
+button[type="submit"] {
+    background-color: #b30000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #f50909;
+}
+
+/* Regra de Acessibilidade Obrigatória (:focus) */
+input:focus,
+button:focus {
+    outline: 10px solid #ffcc00;
+    outline-offset: 2px;
+}
